@@ -1,0 +1,36 @@
+
+h1 {
+    color: rebeccapurple;
+}
+
+p, h2 {
+    background-color: aqua;
+}
+
+.home {
+    color: red;
+}
+
+.tree-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.ordered-section {
+    background-color: aquamarine;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.ordered-list {
+    font-size: 20px;
+}
+
+.ord-items {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+

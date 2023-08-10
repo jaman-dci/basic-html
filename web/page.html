@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Welcome to my Website!</h1> 
@@ -14,7 +15,7 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae libero nihil maxime placeat pariatur repellendus molestias ad, maiores harum dolor provident, consectetur assumenda voluptas facere aliquid hic eum tenetur in.</p>
 
     <ul>
-        <li>Home</li>
+        <li class="home">Home</li>
         <li>About</li>
         <li>Contact</li>
         <li><a href="https://github.com">Github Site</a></li>
@@ -22,12 +23,16 @@
     <h2>This is a paragraph.</h2>
     <br><br>
     
-    <ol>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li><a href="https://netflix.com">Netflix</a></li>
-    </ol>
+    <section class="ordered-section">
+        <div class="ordered-list">
+            <ol class="ord-items">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><a href="https://netflix.com">Netflix</a></li>
+            </ol>
+        </div>
+    </section>
 
     <button>Submit</button>
 
@@ -37,8 +42,9 @@
 
     <br><br>
 
-    <img src="images/tree.jpg" alt="A tree">
+    <img class="tree-img" src="images/tree.jpg" alt="A tree">
 
 
+    <script src="script/scripts.js"></script>
 </body>
 </html>
